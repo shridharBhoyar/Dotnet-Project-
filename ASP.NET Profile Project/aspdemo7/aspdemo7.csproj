@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Asp.aspx" />
-    <Content Include="assetss\img\shri1.jpg" />
     <Content Include="assets\img\asp_project.jfif" />
     <Content Include="assets\img\bca.jfif" />
     <Content Include="assets\img\harihar.jfif" />
@@ -181,41 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assetss\css\style.css" />
-    <Content Include="assetss\img\apple-touch-icon.png" />
-    <Content Include="assetss\img\clients\client-1.png" />
-    <Content Include="assetss\img\clients\client-2.png" />
-    <Content Include="assetss\img\clients\client-3.png" />
-    <Content Include="assetss\img\clients\client-4.png" />
-    <Content Include="assetss\img\clients\client-5.png" />
-    <Content Include="assetss\img\clients\client-6.png" />
-    <Content Include="assetss\img\favicon.png" />
     <Content Include="assetss\img\footer-bg.jpg" />
-    <Content Include="assetss\img\hero-bg.jpg" />
-    <Content Include="assetss\img\our-values-1.jpg" />
-    <Content Include="assetss\img\our-values-2.jpg" />
-    <Content Include="assetss\img\our-values-3.jpg" />
-    <Content Include="assetss\img\our-values-4.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-1.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-2.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-3.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-4.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-5.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-6.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-7.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-8.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-9.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-details-1.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-details-2.jpg" />
-    <Content Include="assetss\img\portfolio\portfolio-details-3.jpg" />
-    <Content Include="assetss\img\team\team-1.jpg" />
-    <Content Include="assetss\img\team\team-2.jpg" />
-    <Content Include="assetss\img\team\team-3.jpg" />
-    <Content Include="assetss\img\team\team-4.jpg" />
-    <Content Include="assetss\img\testimonials\testimonials-1.jpg" />
-    <Content Include="assetss\img\testimonials\testimonials-2.jpg" />
-    <Content Include="assetss\img\testimonials\testimonials-3.jpg" />
-    <Content Include="assetss\img\testimonials\testimonials-4.jpg" />
-    <Content Include="assetss\img\testimonials\testimonials-5.jpg" />
     <Content Include="assetss\vendor\bootstrap-icons\bootstrap-icons.css" />
     <Content Include="assetss\vendor\bootstrap-icons\index.html" />
     <Content Include="assetss\vendor\bootstrap\css\bootstrap-grid.css" />
