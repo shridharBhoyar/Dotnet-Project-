@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69ECBFE9-AACF-4174-ACFD-7D1590869E9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fetilizer_Inventry_project</RootNamespace>
+    <AssemblyName>fetilizer_Inventry_project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit PurchaseRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit PurchaseRecord.Designer.cs">
+      <DependentUpon>Edit PurchaseRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit SaleRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit SaleRecord.Designer.cs">
+      <DependentUpon>Edit SaleRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_CustomerRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_CustomerRecord.Designer.cs">
+      <DependentUpon>Edit_CustomerRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_StockRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_StockRecord.Designer.cs">
+      <DependentUpon>Edit_StockRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm .Designer.cs">
+      <DependentUpon>LogInForm .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase_Record.Designer.cs">
+      <DependentUpon>Purchase_Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleDetailsRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleDetailsRecord.Designer.cs">
+      <DependentUpon>SaleDetailsRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseList.Designer.cs">
+      <DependentUpon>PurchaseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale.Designer.cs">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleList.Designer.cs">
+      <DependentUpon>SaleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale_Data_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale_Data_edit.Designer.cs">
+      <DependentUpon>Sale_Data_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingUpForm.Designer.cs">
+      <DependentUpon>SingUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit PurchaseRecord.resx">
+      <DependentUpon>Edit PurchaseRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit SaleRecord.resx">
+      <DependentUpon>Edit SaleRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_CustomerRecord.resx">
+      <DependentUpon>Edit_CustomerRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_StockRecord.resx">
+      <DependentUpon>Edit_StockRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm .resx">
+      <DependentUpon>LogInForm .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseList.resx">
+      <DependentUpon>PurchaseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase_Record.resx">
+      <DependentUpon>Purchase_Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale.resx">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleDetailsRecord.resx">
+      <DependentUpon>SaleDetailsRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleList.resx">
+      <DependentUpon>SaleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale_Data_edit.resx">
+      <DependentUpon>Sale_Data_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingUpForm.resx">
+      <DependentUpon>SingUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserList.resx">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

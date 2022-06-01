@@ -1,0 +1,66 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div class="row">
+    <div class="col-lg-4">
+        <img src="~/images/purchase_items.jpg" style="height:100px" />
+
+        <br />
+        @Html.ActionLink("Purchase", "PurchaseInventory", "Purchase", null, new { @class = "btn btn-primary " })
+    </div>
+
+
+    <div class="col-lg-4">
+        <img src="~/images/records.png" style="height:100px" /><br />
+        @Html.ActionLink(" Purchase Record", "PurchaseList", "Purchase", null, new { @class = "btn btn-info " })
+    </div>
+
+  
+
+    <div class="col-lg-4">
+        <img src="~/images/Stock_Item.jpg" style="height:100px" /><br />
+        @Html.ActionLink("Stock", "StockList", "Stock", null, new { @class = "btn btn-info " })
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+<br />
+<br />
+<br />
+<div class="row">
+
+
+    <div class="col-lg-4">
+        <img src="~/images/shoping.jpg" style="height:100px"><br />
+
+        @Html.ActionLink("Sale", "CreateCustomer", "Sale", null, new { @class = "btn btn-primary " })
+
+    </div>
+
+
+    <div class="col-lg-4">
+        <img src="~/images/records.png" style="height:100px" /><br />
+        @Html.ActionLink("Sale Record", "SaleList", "Sale", null, new { @class = "btn btn-info " })
+    </div>
+
+
+    <div class="col-lg-4">
+        
+        <img src="~/images/customers.jfif" style="height:100px" width="200" /><br />
+        @Html.ActionLink("Custumer List", "CustomerList", "Sale", null, new { @class = "btn btn-info " })
+    </div>
+
+</div>
