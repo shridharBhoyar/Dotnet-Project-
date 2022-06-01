@@ -267,17 +267,12 @@
     <Content Include="assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="assets\vendor\typed.js\typed.js" />
     <Content Include="assets\vendor\typed.js\typed.min.js" />
-    <Content Include="blog-grid.html" />
-    <Content Include="blog-single.html" />
     <Content Include="Career.aspx" />
-    <Content Include="changelog.txt" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Education.aspx" />
     <Content Include="Feedback.aspx" />
     <Content Include="forms\Readme.txt" />
-    <Content Include="index.html" />
-    <Content Include="portfolio-details.html" />
     <Content Include="Readme.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
